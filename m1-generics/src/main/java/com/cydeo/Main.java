@@ -21,9 +21,11 @@ public class Main {
         BaseballPlayer pat = new BaseballPlayer("Pat");
         SoccerPlayer beckham = new SoccerPlayer("Beckham");
 
-        Team liverpool = new Team("LiverPool");
+        Team<SoccerPlayer> liverpool = new Team("LiverPool");
+        /*
         liverpool.addPlayer(joe);
         liverpool.addPlayer(pat);
+        */
         liverpool.addPlayer(beckham);
 
     }
