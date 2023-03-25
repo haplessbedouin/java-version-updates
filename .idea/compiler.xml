@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="m2-enum" />
         <module name="m1-generics" />
+        <module name="enum-task" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="enum-task" target="17" />
       <module name="m1-generics" target="1.5" />
       <module name="m2-enum" target="17" />
     </bytecodeTargetLevel>
