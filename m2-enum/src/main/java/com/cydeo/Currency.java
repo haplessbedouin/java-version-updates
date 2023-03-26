@@ -12,4 +12,5 @@ public enum Currency {
     public int getValue() {
         return value;
     }
+
 }

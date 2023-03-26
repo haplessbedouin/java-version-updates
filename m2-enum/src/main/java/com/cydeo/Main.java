@@ -39,6 +39,11 @@ public class Main {
                 break;
         }
 
+        System.out.println("How to retrieve the constant value");
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.QUARTER.ordinal()); // returns the index number of constant
+
+
     }
 
 }
