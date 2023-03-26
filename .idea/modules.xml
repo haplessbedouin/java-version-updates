@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/java-version-updates.iml" filepath="$PROJECT_DIR$/java-version-updates.iml" />
       <module fileurl="file://$PROJECT_DIR$/m1-generics.iml" filepath="$PROJECT_DIR$/m1-generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/m2-enum.iml" filepath="$PROJECT_DIR$/m2-enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m3-lambda.iml" filepath="$PROJECT_DIR$/m3-lambda.iml" />
     </modules>
   </component>
 </project>
