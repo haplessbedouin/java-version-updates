@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="m2-enum" />
         <module name="m3-lambda" />
+        <module name="lamda-task" />
         <module name="m1-generics" />
         <module name="enum-task" />
         <module name="generic-task" />
@@ -18,6 +19,7 @@
       <module name="enum-task" target="17" />
       <module name="generic-task" target="17" />
       <module name="lambda" target="1.5" />
+      <module name="lamda-task" target="17" />
       <module name="m1-generics" target="1.5" />
       <module name="m2-enum" target="17" />
       <module name="m3-lambda" target="17" />

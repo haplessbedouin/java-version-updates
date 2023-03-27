@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/enum-task.iml" filepath="$PROJECT_DIR$/enum-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/generic-task.iml" filepath="$PROJECT_DIR$/generic-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-version-updates.iml" filepath="$PROJECT_DIR$/java-version-updates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lamda-task.iml" filepath="$PROJECT_DIR$/lamda-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/m1-generics.iml" filepath="$PROJECT_DIR$/m1-generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/m2-enum.iml" filepath="$PROJECT_DIR$/m2-enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/m3-lambda.iml" filepath="$PROJECT_DIR$/m3-lambda.iml" />
