@@ -23,18 +23,17 @@ public class AppleTest {
         ApplePredicate weightApple = apple -> apple.getWeight()>200;
         filterApples(inventory,weightApple);
 
-
     }
 
     private static List<Apple> filterApples(List<Apple> inventory,ApplePredicate applePredicate){
-           List<Apple> result = new ArrayList<>();
+        List<Apple> result = new ArrayList<>();
 
-           for (Apple apple : inventory){
-               if (applePredicate.test(apple)){
-                   result.add(apple);
-               }
-           }
-           return result;
+        for (Apple apple : inventory){
+            if (applePredicate.test(apple)){
+                result.add(apple);
+            }
+        }
+        return result;
     }
 
 }
