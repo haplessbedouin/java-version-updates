@@ -20,6 +20,14 @@ public class Main {
 
         Collections.sort(list,((o1,o2) -> (o1>o2) ? -1 : (o1<o2) ? 1 : 0));
 
+        //Ascending Order
+        list.sort(((o1, o2) -> o1.compareTo(o2)));
+        System.out.println(list);
+
+        //Descending Order
+        list.sort((o2, o1) -> o1.compareTo(o2));
+        System.out.println(list);
+
 
     }
 }
