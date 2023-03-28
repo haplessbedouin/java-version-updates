@@ -9,10 +9,12 @@
         <option value="$PROJECT_DIR$/generic-task/pom.xml" />
         <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
         <option value="$PROJECT_DIR$/lamda-task/pom.xml" />
+        <option value="$PROJECT_DIR$/m4-double_column_operators/pom.xml" />
+        <option value="$PROJECT_DIR$/m4-double_colon_operators/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

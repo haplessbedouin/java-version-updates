@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="m2-enum" />
         <module name="m3-lambda" />
         <module name="lamda-task" />
+        <module name="m2-enum" />
+        <module name="m4-double_colon_operators" />
         <module name="m1-generics" />
         <module name="enum-task" />
         <module name="generic-task" />
@@ -23,6 +24,7 @@
       <module name="m1-generics" target="1.5" />
       <module name="m2-enum" target="17" />
       <module name="m3-lambda" target="17" />
+      <module name="m4-double_colon_operators" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
