@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="m3-lambda" />
         <module name="lamda-task" />
+        <module name="m6-stream" />
         <module name="m5-comparator_interface" />
         <module name="m2-enum" />
         <module name="m4-double_colon_operators" />
@@ -27,6 +28,7 @@
       <module name="m3-lambda" target="17" />
       <module name="m4-double_colon_operators" target="1.8" />
       <module name="m5-comparator_interface" target="17" />
+      <module name="m6-stream" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
