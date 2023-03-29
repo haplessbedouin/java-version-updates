@@ -1,5 +1,9 @@
 package com.cydeo;
 
+import com.cydeo.task.Dish;
+import com.cydeo.task.DishData;
+import com.cydeo.task.Type;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -21,6 +25,56 @@ public class CollectorsDemo {
                 .collect(Collectors.toCollection(HashSet::new));
 
         System.out.println(numberSet);
+
+        //toList() : returns a Collector interface that gathers the input data into a new list
+        List<Integer> numberList2 = numbers.stream()
+                .filter(x -> x%2==0)
+                .toList();
+        System.out.println(numberList2);
+
+        //toSet() : returns Collector interface that gathers the input data into a new set
+        Set<Integer> numberList3 = numbers.stream()
+                .filter(x -> x%2==0)
+                .collect(Collectors.toSet());
+        System.out.println(numberList3);
+
+        //toMap(Function,Function) : returns a Collector interface that gather the input data into new map
+        Map<String,Integer> dishMap = DishData.getAll().stream()
+                .collect(Collectors.toMap(Dish::getName,Dish::getCalories));
+        System.out.println(dishMap);
+
+        //summingInt(ToIntFunction) : return a Collector that produces the sum of an Integer-valued func
+        Integer sum = DishData.getAll().stream()
+                .collect(Collectors.summingInt(Dish::getCalories));
+        System.out.println(sum);
+        Long evenCount = numbers.stream()
+                .filter(x -> x%2==0)
+                .collect(Collectors.counting());
+        System.out.println(evenCount);
+
+        //averageingInt(ToIntFunction): returns the average of the integers passed values
+        Double calorieAverage = DishData.getAll().stream()
+                .collect(Collectors.averagingInt(Dish::getCalories));
+
+        System.out.println(calorieAverage);
+
+        //joining(): is used to join various elements of a character or string array into a single object
+        List<String> courses = Arrays.asList("Java", "JS", "TS");
+        String str = courses.stream()
+                .collect(Collectors.joining(","));
+        System.out.println(str);
+
+        //partitioningBy() : is used to partition a stream of objects (or a set of elements) based on a given predicate.
+        Map<Boolean,List<Dish>> isVeggie = DishData.getAll().stream()
+                .collect(Collectors.partitioningBy(Dish::isVegetarian));
+        System.out.println(isVeggie);
+
+        //groupingBy(); is used for grouping objects by some property and storing results in a Map instance
+        Map<Type,List<Dish>> dishType = DishData.getAll().stream()
+                .collect(Collectors.groupingBy(Dish::getType));
+
+        System.out.println(dishType);
+
 
 
     }
