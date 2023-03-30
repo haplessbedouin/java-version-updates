@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/m4-double_colon_operators/m4-double_colon_operators.iml" filepath="$PROJECT_DIR$/m4-double_colon_operators/m4-double_colon_operators.iml" />
       <module fileurl="file://$PROJECT_DIR$/m5-comparator_interface.iml" filepath="$PROJECT_DIR$/m5-comparator_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/m6-stream.iml" filepath="$PROJECT_DIR$/m6-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/m7-optional-bigdecimal.iml" filepath="$PROJECT_DIR$/m7-optional-bigdecimal.iml" />
     </modules>
   </component>
 </project>

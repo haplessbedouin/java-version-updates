@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/m4-double_colon_operators/pom.xml" />
         <option value="$PROJECT_DIR$/m5-comparator_interface/pom.xml" />
         <option value="$PROJECT_DIR$/m6-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/m7-optional-bigdecimal/pom.xml" />
       </list>
     </option>
   </component>
