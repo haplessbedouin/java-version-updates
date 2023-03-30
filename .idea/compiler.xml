@@ -17,6 +17,7 @@
         <module name="m1-generics" />
         <module name="enum-task" />
         <module name="generic-task" />
+        <module name="m8-new-version-updates" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="m5-comparator_interface" target="17" />
       <module name="m6-stream" target="17" />
       <module name="m7-optional-bigdecimal" target="17" />
+      <module name="m8-new-version-updates" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
